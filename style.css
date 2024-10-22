@@ -10,11 +10,13 @@ body {
 .container {
     text-align: center;
     padding: 30px;
+    border: 5px solid black;
     background-color: #ffffff; /* Background color for container */
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
+    height: auto;
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
@@ -24,4 +26,91 @@ h1 {
     color: #4a4a4a; /* Header color */
 }
 
+h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #4a4a4a; /* Header color */
+}
+
+h3 {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    color: #4a4a4a; /* Header color */
+}
+
 /* Add more styles here as needed */
+ label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+ }
+
+ /* Style for input fields */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Wrapper for the checkbox and label */
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Aligns checkbox and label vertically */
+    margin-bottom: 10px; /* Adds space between each checkbox option */
+    margin-left: 70px;
+}
+
+/* Style for the checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px; /* Adds space between the checkbox and label */
+}
+
+
+/* Style for buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for password output */
+#passwordOutput {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-family: monospace;
+    font-size: 18px;
+    word-wrap: break-word;
+    min-height: 40px;
+}
+
+/* Optional: Style for Copy to Clipboard button */
+#copyBtn {
+    background-color: #007BFF;
+    margin-top: 10px;
+}
+
+#copyBtn:hover {
+    background-color: #0056b3;
+}
