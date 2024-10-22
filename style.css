@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #7cdbf9; /* Background color */
 }
 
 .container {
@@ -64,9 +64,9 @@ input[type="checkbox"] {
 /* Wrapper for the checkbox and label */
 .checkbox-container {
     display: flex;
-    align-items: center; /* Aligns checkbox and label vertically */
-    margin-bottom: 10px; /* Adds space between each checkbox option */
-    margin-left: 70px;
+    align-items: center; 
+    margin-bottom: 10px; 
+    margin-left: 90px;
 }
 
 /* Style for the checkboxes */
@@ -103,6 +103,7 @@ button:hover {
     font-size: 18px;
     word-wrap: break-word;
     min-height: 40px;
+    text-align: center;
 }
 
 /* Optional: Style for Copy to Clipboard button */
